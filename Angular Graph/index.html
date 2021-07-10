@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SafeBox | Gauge Analog</title>
+    
+    <meta name="description" content="SafeBox | Gauge Analog">
+    <meta name="author" content="Akshayan Sinha">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <link rel="icon" type="image/png" href="img/android-chrome-512x512.png"  sizes="16x16">
+    <!---    
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    --->
+
+
+    <link rel="stylesheet" href="gauge.min.css">
+    <link rel="stylesheet" href="gauge-glossy.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Nova Flat' rel='stylesheet'>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            background-image: url("img/BG.jpg") ;
+        }
+
+        .gauge-example {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .gauge-example>div {
+        
+            width: 100%;
+         /* min-width: 350px; */
+         /* margin: 5px;  */
+            text-align: center;
+         /* padding: 40px;  */
+         /* line-height: 25px;  */
+            font-size: 30px;
+        }
+
+        .gauge-example>.gauge-description {
+            padding: 3em;
+            text-align: left;
+        }
+
+        .gauge-example>.gauge-description pre {
+            font-size: 12px;
+        }
+
+        .gauge {
+            margin: auto;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="gauge-example">
+
+        <div class="gauge-glossy">
+            <h1>Analog Meter</h1>
+
+            <!-- Demo gauge 2-->
+            <div id="demoGauge2" class="gauge" style="--gauge-bg: #1c78a6;--gauge-value:0;--gauge-display-value:0;width:25vw;height:25vw;">
+
+                <div class="ticks">
+                    <div class="tithe" style="--gauge-tithe-tick:1;"></div>
+                    <div class="tithe" style="--gauge-tithe-tick:2;"></div>
+                    <div class="tithe" style="--gauge-tithe-tick:3;"></div>
+                    <div class="tithe" style="--gauge-tithe-tick:4;"></div>
+                    <div class="tithe" style="--gauge-tithe-tick:6;"></div>
+                    <div class="tithe" style="--gauge-tithe-tick:7;"></div>
+                    <div class="tithe" style="--gauge-tithe-tick:8;"></div>
+                    <div class="tithe" style="--gauge-tithe-tick:9;"></div>
+                    <div class="min"></div>
+                    <div class="mid"></div>
+                    <div class="max"></div>
+                </div>
+                <div class="tick-circle"></div>
+
+                <div class="needle">
+                    <div class="needle-head"></div>
+                </div>
+                <div class="labels">
+                    <div class="value-label"></div>
+                </div>
+            </div>
+            <p>
+             <!---<label for="points">Lux Value</label><br /> --->
+            <!---    <input type="range" id="gaugeValue-demoGauge2" name="gaugeValue" min="0" max="100" value="0" onInput="updateGauge('demoGauge2', 0, 100);"onChange="updateGauge('demoGauge2', 0, 100);" /> --->
+            </p>
+        </div>
+        
+
+        <script src="control.js"></script>
+    </div>                    
+              
+        
+        </script>
+</body>
+
+</html>

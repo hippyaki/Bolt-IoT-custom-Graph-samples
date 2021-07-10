@@ -1,0 +1,78 @@
+body {
+            background-color: #141F25;
+      }
+h1{
+  text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC, 2px 2px 2px #9BDF46;
+  font-family: 'Nova Flat';
+  font-size: 60px;
+  color: #8cb854;
+}      
+
+.gauge {
+  width: 100%;
+  max-width: 500px;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  color: #004033;
+  padding-top: 100px;
+}
+
+
+.gauge__body {
+  width: 100%;
+  height: 0;
+  padding-bottom: 50%;
+  background: #9BDF46;
+  position: relative;
+  border-top-left-radius: 100% 200%;
+  border-top-right-radius: 100% 200%;
+  overflow: hidden;
+}
+
+.gauge__fill {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: inherit;
+  height: 100%;
+  background: #9BDF46;
+  transform-origin: center top;
+  transform: rotate(0.25turn);
+  transition: transform 2s ;
+}
+
+.gauge__cover2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Nova Flat';
+  font-size: 50px;
+  color: #9BDF46;
+  padding-bottom: 25%;
+  box-sizing: border-box;
+
+  width: 75%;
+  height: 150%;
+  
+  background-color: #141F25;
+  border-radius: 50%;
+  position: absolute;   
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  /* Text */
+  
+}
+.gauge__cover1 {
+  width: 95%;
+  height: 190%;
+
+  background: #141F25;
+  border-radius: 50%;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
