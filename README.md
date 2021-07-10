@@ -8,7 +8,7 @@
 <br>
 
 
-Both the gauge meter only works when connected to a Bolt IoT module. To get yours, click [here](https://shop.boltiot.com/pages/iotmltraining)
+Both of the gauge meter only works when connected to a Bolt IoT module. To get yours, click [here](https://shop.boltiot.com/pages/iotmltraining)
 
 If you have yours, add your API-KEY and DEVICE-ID as mentioned below - 
 
