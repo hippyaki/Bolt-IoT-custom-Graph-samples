@@ -1,11 +1,4 @@
 var A0  = "A0";
-var A1  = "A1";
-var A2  = "A2";
-var A3  = "A3";
-var True = "HIGH"
-var False = "LOW"
-var HIGH = "HIGH"
-var LOW  = "LOW"
 var debug = 0
 
 var api_key = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
