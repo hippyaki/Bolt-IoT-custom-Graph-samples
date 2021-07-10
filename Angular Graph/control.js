@@ -8,8 +8,8 @@ var HIGH = "HIGH"
 var LOW  = "LOW"
 var debug = 0
 
-var api_key = "b71b13c6-cac1-456a-aa4e-8e61cb2c01aa";
-var d_name = "BOLT8021328";
+var api_key = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+var d_name = "BOLTXXXXXX";
 var base_url = "https://cloud.boltiot.com/remote/"
 
 function analogRead(pin, element_id) {
