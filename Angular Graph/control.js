@@ -49,7 +49,7 @@ function analogRead(pin, element_id) {
 
 const interval = setInterval(function(){
                     analogRead(A0,"output")
-                }, 2000);  
+                }, 2000);  //2 second interval
 
   
 
